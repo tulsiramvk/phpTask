@@ -15,7 +15,7 @@ class formController extends Controller
             $form->mobile=$req->mobile;
             $form->place=$req->place;
             $form->save();
-            return redirect('/');
+            return redirect('viewdata/');
     }
     function show(){
             $data = Form::all();

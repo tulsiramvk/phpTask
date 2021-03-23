@@ -9,8 +9,8 @@
 <body>
     <div class="container jumbotron">
         <div class="row">
-            <div class="col-md-4">
-                <h1>Insert Data</h1><br>
+            <div class="col-md-6">
+                <h1>Insert Info</h1><br>
                 <form action="insert" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
